@@ -1,0 +1,36 @@
+body{
+    background-color: #009dff;
+    color: #009dff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.modal-body{
+    display: inline-flex;
+}
+.modal-body img{
+    width: 400px;
+}
+.btn-1{
+    font-size: 20px;
+}
+.btn-1 i{
+    margin-left: 10px;
+}
+.aeeg{
+    text-align: center;
+}
+canvas{
+    background-color: #fff;
+    border-radius: 5px;
+    animation: example 1s infinite;
+    margin-top: 10px;
+}
+@keyframes example {
+    from{
+        box-shadow: 0 4px 8px 0 black;
+    }
+    to{
+        box-shadow: 0 6px 20px indianred;
+    }
+}
